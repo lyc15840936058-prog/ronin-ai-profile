@@ -1,0 +1,33 @@
+# dev / reference materials — never deploy
+*.mov
+*.pptx
+*.pdf
+*.zip
+AGENTS.md
+PLAN.md
+PROGRESS.md
+deploy.sh
+
+# legacy / mockups
+mockup-*.html
+sync-test.html.bak
+*.bak
+*~
+
+# build artifacts from codex (we deploy the root html directly)
+dist/
+assets/
+
+# unused reference images (verified not referenced in any .html)
+20260514170423524.png
+ai agent start here.png
+idea提案.png
+loading1.png
+loading2.png
+twist介绍.png
+
+# system
+.DS_Store
+.git
+.playwright-cli
+node_modules
