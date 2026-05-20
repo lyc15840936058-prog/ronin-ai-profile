@@ -254,7 +254,7 @@
   const TIERS = [
     { min: 9, name: '同 commit 的人', en: 'SAME COMMIT', blurb: '我们的 git 历史从此分叉成同一棵树。\n判断、品味、节奏、价值观 —— 你和 ronin 在 9 个以上的地方想到一块。\n如果你在招人，发我微信；如果你在创业，咱们聊聊。' },
     { min: 7, name: '频段对齐', en: 'FREQ ALIGNED', blurb: '我们走在同一条山脊线上，偶尔在不同的侧坡看风景。\n你和 ronin 的判断在多数关键点上一致，剩下那几个分歧值得喝杯酒讨论一晚。' },
-    { min: 5, name: '会一起吃顿饭', en: 'DINNER COMPATIBLE', blurb: '我们看世界的角度有交集，也有美好的张力。\n你不会同意 ronin 所有判断，但你大概率会愿意听他把话讲完。这就够了。' },
+    { min: 5, name: '会一起吃顿饭', en: 'DINNER COMPATIBLE', blurb: '我们看世界的角度有交集，也有美好的张力。\n你不会同意 ronin ���有判断，但你大概率会愿意听他把话讲完。这就够了。' },
     { min: 3, name: '值得辩论的对手', en: 'WORTHY OPPONENT', blurb: '我们对核心问题的答案不一样。\n但你那种「不一样」是有结构的 —— 这反而比「差不多」更值得长聊一次。' },
     { min: 0, name: '世界因此更有意思', en: 'ORTHOGONAL', blurb: '我们的轴不重合。\n这意味着你看到的东西 ronin 完全看不到，反之亦然。\n互联网最美好的事就是这种 link —— saved.' }
   ];
@@ -344,5 +344,11 @@
   // GO
   renderQ();
 </script>
+
+<script type="module">
+  import { inject } from '@vercel/analytics';
+  inject();
+</script>
+
 </body>
 </html>
